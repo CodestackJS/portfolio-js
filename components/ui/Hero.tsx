@@ -27,11 +27,14 @@ const Hero = () => {
                 words="Hey there! I'm your friendly neighborhood code engineer"
             />
               <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;am Jose a Next.js Developer based in the San Joaquin Valley</p>
+
+              <a href="#about"><MagicButton title="My Projects" position="right" icon={<GoProjectRoadmap/>}/></a>
+
             </div>
 
-            <a href="#about"><MagicButton title="My Projects" position="right" icon={<GoProjectRoadmap/>}/></a>
+         
         </div>
-
+       
     </div>
     </>
   )
