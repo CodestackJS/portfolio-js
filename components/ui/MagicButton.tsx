@@ -1,10 +1,9 @@
 "use client";
 import React, { ReactNode } from "react";
 //import { IconClipboard } from "@tabler/icons-react";
-import { cn } from "@/lib/utils";
 
 const MagicButton = ({
-    title, icon, position, handleClick, otherClasses
+    title, icon, position, otherClasses
 }: {
 
   title: string;
